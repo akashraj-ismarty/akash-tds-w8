@@ -3,12 +3,12 @@ import pandas as pd
 import streamlit as st
 
 def welcome():
-    return "Welcome All"
+    return "Greetings everybody"
 
 def main():
   st.title("EVEN / ODD Number Check")
   html_temp = """
-  <div style="background-color:tomato;padding:15px">
+  <div style="background-color:grey;padding:15px">
   <h2 style="color:white;text-align:center;">Finding even or odd number using Streamlit</h2>
   </div>
   """

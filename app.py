@@ -6,10 +6,10 @@ def welcome():
     return "Welcome All"
 
 def main():
-  st.title("EVEN or ODD")
+  st.title("EVEN / ODD Number Check")
   html_temp = """
-  <div style="background-color:tomato;padding:10px">
-  <h2 style="color:blue;text-align:center;">Finding even or odd number using Streamlit</h2>
+  <div style="background-color:tomato;padding:15px">
+  <h2 style="color:white;text-align:center;">Finding even or odd number using Streamlit</h2>
   </div>
   """
   st.markdown(html_temp,unsafe_allow_html=True)
